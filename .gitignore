@@ -49,3 +49,6 @@ tags
 .DS_Store
 .agignore
 **/*.tgz
+
+# Ignore bench reports
+/reports/*
