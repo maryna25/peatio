@@ -125,7 +125,7 @@ module Bench
     end
 
     def queue_status_file_path(name)
-      Rails.root.join(@config[:report_path], 'log', "#{name}-#{@publish_started_at.iso8601}.yml")
+      Rails.root.join(@config[:log_path], "#{name}-#{@publish_started_at.iso8601}.yml")
     end
   end
 end

@@ -50,5 +50,10 @@ tags
 .agignore
 **/*.tgz
 
-# Ignore bench reports
-/reports/*
+# Ignore useless yarn files and cache
+.cache
+.yarnrc
+
+# Ignore bench reports & logs
+bench/reports/*
+bench/log/*
