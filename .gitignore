@@ -56,5 +56,6 @@ tags
 .cache
 .yarnrc
 
-# Ignore bench reports
-/reports/*
+# Ignore bench reports & logs
+bench/reports/*
+bench/log/*

@@ -85,7 +85,7 @@ module Bench
     end
 
     def order_processing_queue_status
-      @rmq_http_client.list_queues.find { |q| q.name == AMQPConfig.binding_queue(:order_processor).first }
+      @rmq_http_client.list_queues.find { |q| q[:name] == AMQPConfig.binding_queue(:order_processor).first }
     end
   end
 end
